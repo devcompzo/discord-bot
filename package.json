@@ -1,0 +1,31 @@
+{
+	"name": "typescript-project-template",
+	"version": "0.0.1",
+	"description": "Pre-configured TypeScript project that includes ESLint and Prettier.",
+	"main": "src/app.js",
+	"scripts": {
+		"dev": "nodemon src/app.js",
+		"start": "node src/app.js",
+		"build": "tsc",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
+	},
+	"keywords": [],
+	"author": "nico722",
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"eslint": "^7.3.1",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"nodemon": "^2.0.12",
+		"prettier": "^2.0.5"
+	},
+	"dependencies": {
+		"@discordjs/voice": "^0.5.5",
+		"discord.js": "^12.5.3",
+		"dotenv": "^10.0.0",
+		"moment-timezone": "^0.5.33",
+		"mongoose": "^5.13.5"
+	}
+}
